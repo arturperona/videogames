@@ -1,0 +1,41 @@
+{
+    "game" : {
+        "screen_size" : [640,480],
+        "background_color" : [0,0,0],
+        "foreground_color" : [255,255,255],
+        "title" : "Walking lady",
+        "background_image" : ["walkinglady.assets.images", "background_80s.png"]
+
+    },
+    "entities" : { 
+        "hero" : {
+            "path" : ["walkinglady.assets.images", "walking_animation.png"],
+            "speed" : 0.15,
+            "image_size" : [64,128],
+            "images_right" : 10,
+            "images_left" : 10
+        }
+    },
+    "audio_game": {
+        "song1": {
+            "name": "City lofi theme",
+            "path_song": [
+                "walkinglady.assets.audio",
+                "city_life.mp3"
+            ],
+            "music_volume" : 1
+        }
+    },
+    "input" : {
+        "key_mapping" : {"left" : "left",
+        "right" : "right",
+        "up" : "up",
+        "down" : "down" }
+    },
+    "timing" : {
+        "fps" : 60,
+        "time_per_frame" : 16,
+        "fps_pos" : [0,0],
+        "max_update_time" : 1000
+    }
+}

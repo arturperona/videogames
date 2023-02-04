@@ -1,0 +1,64 @@
+{
+    "game": {
+        "screen_size": [
+            640,
+            480
+        ],
+        "background_color": [
+            0,
+            0,
+            0
+        ],
+        "foreground_color": [
+            255,
+            255,
+            255
+        ],
+        "title": "Terminator"
+    },
+    "scroll": {
+        "text": "LOS ANGELES 2029 A.D.                                  THE MACHINES ROSE FROM THE ASHES OF THE NUCLEAR FIRE. THEIR WAR TO EXTERMINATE MANKIND HAS RAGED FOR DECADES. BUT THE FINAL BATTLE WOULD NOT BE FOUGHT IN THE FUTURE. IT WOULD BE FOUGHT HERE. IN OUR PRESENT.                                  TONIGHT...                                    ",
+        "speed": 0.15
+    },
+    "font": {
+        "path": [
+            "assets",
+            "images",
+            "AGENTS2.png"
+        ],
+        "columns": 15,
+        "letter_size": [
+            20,
+            28
+        ],
+        "total_letters": 44
+    },
+    "audio_game": {
+        "song1": {
+            "name": "Terminator theme",
+            "path_song": [
+                "assets",
+                "audio",
+                "terminator_theme.mp3"
+            ],
+            "music_volume" : 1
+        }
+    },
+    "input": {
+        "key_mapping": {
+            "left": "left",
+            "right": "right",
+            "up": "up",
+            "down": "down"
+        }
+    },
+    "timing": {
+        "fps": 60,
+        "time_per_frame": 16,
+        "fps_pos": [
+            0,
+            0
+        ],
+        "max_update_time": 1000
+    }
+}
